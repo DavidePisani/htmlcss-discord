@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* HEADER */
+
+/* HEADER TOP */
+.header-top {
+    background-color: #add8e6;/* test */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* test */
+    width: 100%; 
+}
+/* COLONNE */
+.col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #daa520;/* test */
+    width:60%; 
+ }
+
+.logo{
+    display: flex;
+    align-items: center;
+    border: 2px Dashed black;
+    width:20%; 
+    height: 40px;  /* test */   
+}
+a{
+    text-decoration: none;
+    color: black
+}
+/* INIZIO NAV */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px Dashed black;
+    width: 60%;
+    height: 40px; /* test */
+}
+
+nav ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+}
+
+li {
+    padding: 0 20px;  
+}
+/* FINE NAV */
+.login{
+    align-items: center;
+    justify-content: end;  
+    display: flex;
+    border: 2px Dashed black;
+    width:20%; 
+    height: 40px;  /* test */   
+}
+/* FINE COLONNE */
+
+/* INIZIO JUMBOTRON */
+
+.header-bot{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.jumbotron{
+    width: 40%;
+    height: 350px; /* test */ 
+    background-color: #ee82ee;
+    border: 3px Dashed black;
+}
+
+/* FINE JUMBOTRON + HEADER  */
+
+/* INIZIO MAIN */
+                /* SFONDO BIANCO E CONTENITORE  */
+.main-cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+    /* SFONDO GRIGIO */
+.grey{
+    background-color: #d3d3d3;
+}
+    /* SFONDO NERO */
+.black{
+    background-color: #23272a;
+}
+    /* INIZIO BLOCCHI COLORATI */
+
+/* BLOCCO BLU */
+.cont-blue{
+    border: 3px Dashed black;
+    display: flex;
+    background-color: #1e90ff;
+    width: 40%;
+    height: 350px; /* test */ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* BLOCCO ROSA */
+.cont-pink{
+    border: 3px Dashed black;
+    display: flex;
+    background-color: #ffc0cb;
+    width: 30%;
+    height: 350px; /* test */ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* BLOCCO VERDE */
+.cont-green{
+    border: 3px Dashed black;
+    display: flex;
+    background-color: #228b22;
+    width: 50%;
+    height: 600px; /* test */ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* BLOCCO ROSA SCURO */
+.cont-rose{
+    display: flex;
+    border: 3px Dashed black;
+    background-color: #f08080;
+    width: 20%;
+    height: 500px; /* test */ 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* INTER-CONTENITORE TRATTEGGIATURA NERA */
+.inter-cont{
+    display: flex;
+    border: 4px Dashed black;
+    width: 60%;
+    height: 500px; /* test */ 
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+/* CONTENITORE AZZURRO */
+.cont-lightblue{
+    display: flex;
+    border: 3px Dashed white;
+    background-color: #20b2aa;
+    width: 30%;
+    height: 500px; /* test */ 
+    margin-bottom: 20px;
+}
+
+/* FINE MAIN E BLOCCHI COLORATI*/
+
+/* INIZIO FOOTER */
+
+.foot-cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    display: flex;
+    width: 100%;
+    height: 100px; /* test */ 
+    justify-content: center;
+    align-items: center;
+}
+
+.feet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 60px; /* test */ 
+    background-color: #7fffd4;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb6c1;
+    border: 1px Dashed black;
+    height: 30px; /* test */ 
+    padding: 10px;
+    
+}
+
+/* FINE FOOTER */
