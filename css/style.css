@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px; /* test */
+    height: 150px;
     width: 100%; 
 }
 /* COLONNE */
@@ -94,9 +94,9 @@ outline: none;
 .header-bot{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     display: flex;
     width: 100%;
-    height: auto;
     justify-content: center;
     padding: 100px;
     
@@ -110,12 +110,13 @@ outline: none;
 
 .jumbotron h1{
     padding: 20px;
-    font-size: 59px;
+    font-size: 59px;   
 }
 
 .jumbotron p{
-    padding: 20px;
+    padding: 20px 20px 40px;
     font-size: 25px;
+    text-align: center;
 }
 
 .white{
@@ -169,32 +170,45 @@ outline: none;
     width: 25%;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 20px;
+    
 }
 
 h2{
-    text-align: left;
+   
     font-size: 60px;
-    padding: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
-p{
-    text-align:start;
-    font-size: 20px;
-    
+p{   
+    font-size: 20px;   
 }    
 
 /* BLOCCO VERDE */
 .cont-green{
-    width: 50%;
+    text-align: center;
+    width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center;
+    margin: auto;
+    padding: 25px;
 }
 
-h3{
-    font-size: 50px;
+.cont-green img{
+    width: 100%;   
+}
+
+.cont-green h3{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    font-size: 30px;
     padding: 20px;
+    margin-top: 30px;
+}
+
+.cont-green .btn-large{
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .coral{
@@ -235,7 +249,10 @@ h3{
 }
 
 .cont-rose h3{
-    color: #7289da
+    color: #7289da;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 span{
