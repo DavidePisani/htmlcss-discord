@@ -11,7 +11,7 @@ body{
 
 /* HEADER TOP */
 .header-top {
-    background-color: #add8e6;/* test */
+    background-color: #255ee9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,29 +23,26 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #daa520;/* test */
     width:60%; 
  }
 
 .logo{
     display: flex;
     align-items: center;
-    border: 2px Dashed black;
     width:20%; 
-    height: 40px;  /* test */   
+      
 }
 a{
     text-decoration: none;
-    color: black
+    color: white
 }
 /* INIZIO NAV */
 nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px Dashed black;
     width: 60%;
-    height: 40px; /* test */
+    
 }
 
 nav ul{
@@ -57,37 +54,85 @@ nav ul{
 }
 
 li {
-    padding: 0 20px;  
+    padding: 0 30px;  
 }
 /* FINE NAV */
 .login{
     align-items: center;
     justify-content: end;  
     display: flex;
-    border: 2px Dashed black;
-    width:20%; 
-    height: 40px;  /* test */   
+    width:20%;   
+}
+
+/* BOTTONE PICCOLO */
+.btn-small{
+    border-radius: 30px;
+    padding: 13px;
+    outline: none;
+}
+/* BOTTONE GRANDE */
+.btn-large{
+border-radius: 30px;
+padding: 15px;
+outline: none;
+}
+
+.btn-small a {
+    color:black;
+}
+
+.login .btn-small{
+    border: 1px solid white;
+    color: black;  
 }
 /* FINE COLONNE */
 
 /* INIZIO JUMBOTRON */
 
 .header-bot{
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     display: flex;
     width: 100%;
+    height: auto;
     justify-content: center;
-    margin: auto;
-    padding: 20px;
+    padding: 100px;
     
 }
 
 .jumbotron{
     width: 40%;
-    height: 350px; /* test */ 
-    background-color: #ee82ee;
-    border: 3px Dashed black;
+    text-align: center;
+    color: white;      
 }
+
+.jumbotron h1{
+    padding: 20px;
+    font-size: 59px;
+}
+
+.jumbotron p{
+    padding: 20px;
+    font-size: 25px;
+}
+
+.white{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 12px;
+}
+
+.blk{
+    background-color: #23272a;
+    color: white;
+    border: 1px solid #23272a;
+    font-size: 20px;
+    padding: 12px;
+}
+
+
 
 /* FINE JUMBOTRON + HEADER  */
 
@@ -111,11 +156,8 @@ li {
 
 /* BLOCCO BLU */
 .cont-blue{
-    border: 3px Dashed black;
     display: flex;
-    background-color: #1e90ff;
     width: 40%;
-    height: 350px; /* test */ 
     margin-top: 20px;
     margin-bottom: 20px;
 }
