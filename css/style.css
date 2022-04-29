@@ -79,7 +79,7 @@ padding: 20px;
 outline: none;
 }
 
-.btn-small a {
+.login a {
     color:black;
 }
 
@@ -204,7 +204,11 @@ h3{
     font-size: 20px;
 }
 
+/* FINE MAIN E BLOCCHI COLORATI*/
 
+
+
+/* INIZIO FOOTER */
 
 /* BLOCCO ROSA SCURO */
 .cont-rose{
@@ -220,7 +224,6 @@ h3{
     height: 500px; /* test */ 
     margin-top: 5px;
     margin-bottom: 20px;
-
 }
 /* CONTENITORE AZZURRO */
 .cont-lightblue{
@@ -231,6 +234,31 @@ h3{
     line-height: 40px;
 }
 
+.cont-rose h3{
+    color: #7289da
+}
+
+span{
+    color:white;
+    text-align: center;     
+}
+
+.social {
+    margin: 10px 20px;   
+}
+
+.social span{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.cont-rose img{
+    width: 30px;
+    height: 20px;
+    margin-left: 23px;
+    
+}
+
 h4{
     color: #7289da
 }
@@ -238,11 +266,6 @@ h4{
 .cont-lightblue li{
     color: white;
 }
-
-
-/* FINE MAIN E BLOCCHI COLORATI*/
-
-/* INIZIO FOOTER */
 
 .foot-cont{
     display: flex;
@@ -258,25 +281,29 @@ h4{
     justify-content: center;
     align-items: center;
 }
-
+hr{
+   border: 1px solid #758bda;
+   width: 100%
+   
+}
 .feet{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
     height: 60px; /* test */ 
-    background-color: #7fffd4;
+    
 }
 
 .item{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffb6c1;
-    border: 1px Dashed black;
-    height: 30px; /* test */ 
     padding: 10px;
-    
 }
+
+
+
+
 
 /* FINE FOOTER */
